@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav-wrapper {
+    background-color: rgba(14,110,213,.8);
+}
+
+.page-footer{
+    background-color: rgba(14,110,213,.7);
+}
+
+hr.principal {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    }
+hr.principal:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.title{
+    color:rgba(14,110,213,.8);
+    background-color: rgba(14,110,213,.8);
+    height: 8px;
+    margin-top: -2%;
+    border-radius: 20px;
+}
