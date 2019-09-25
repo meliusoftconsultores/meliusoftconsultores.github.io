@@ -41,3 +41,17 @@ hr.title{
     margin-top: -2%;
     border-radius: 20px;
 }
+
+.telefono{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    .telefono{
+        display: block;
+    }
+
+    .escritorio{
+        display: none;
+    }
+}
