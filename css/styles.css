@@ -46,6 +46,10 @@ hr.title{
     display: none;
 }
 
+.mobileOnly{
+    display: none;
+}
+
 @media only screen and (max-width: 800px){
     .telefono{
         display: block;
@@ -54,4 +58,38 @@ hr.title{
     .escritorio{
         display: none;
     }
+
+    
+
+    .centrado{   
+        margin-left: 40%;
+        margin-right: 40%;        
+    }
 }
+
+@media only screen and (max-width: 650px){
+
+    .centrado{   
+        margin-left: 30%;
+        margin-right: 30%;        
+    }    
+
+}
+
+@media only screen and (max-width: 420px){
+
+    .centrado{
+        margin-left: 0%;
+        margin-right: 0%; 
+    }
+
+    .mobileOnly{
+        display: block;
+    }
+
+    .desktop{
+        display: none;       
+    }
+
+}
+
